@@ -252,7 +252,7 @@ curl -X GET "https://air-viva.com/api/v2/flights.json?from=DAR&to=2&departureDat
                         "city": "Arusha",
                         "country": "Tanzania"
                     },
-                    "number": 5031,
+                    "number": "5031",
                     "dates": {
                         "departure": "2019-01-28 12:00",
                         "arrival": "2019-01-28 12:45"
@@ -277,7 +277,7 @@ curl -X GET "https://air-viva.com/api/v2/flights.json?from=DAR&to=2&departureDat
                         "city": "Kilimanjaro",
                         "country": "Tanzania"
                     },
-                    "number": 5032,
+                    "number": "5032",
                     "dates": {
                         "departure": "2019-01-28 13:00",
                         "arrival": "2019-01-28 13:45"
@@ -302,7 +302,7 @@ curl -X GET "https://air-viva.com/api/v2/flights.json?from=DAR&to=2&departureDat
                         "city": "Zanzibar",
                         "country": "Tanzania"
                     },
-                    "number": 5032,
+                    "number": "5032",
                     "dates": {
                         "departure": "2019-01-28 14:00",
                         "arrival": "2019-01-28 14:45"
