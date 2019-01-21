@@ -19,7 +19,7 @@ We have example code in Shell (using cURL) and PHP. You can view code examples i
 
 # Authentication
 
-> To authorize, use this code:
+> Authorization can be done with a header or with a GET parameter:
 
 ```php
 <?php 
