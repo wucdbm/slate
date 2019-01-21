@@ -404,7 +404,7 @@ Flight numbers under each leg are strings to prevent JSON serializers mangling f
 </aside>
 
 <aside class="warning">
-If a one-way search is performed, and <code>returnDate</code> is not provided, the <code>return</code> key in the JSON response will be omitted.
+If <code>returnDate</code> is not provided, then a one-way search will be performed, the <code>return</code> key in the JSON response will be omitted.
 </aside>
 
 # Redirect
