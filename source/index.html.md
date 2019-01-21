@@ -315,7 +315,6 @@ curl -X GET "https://air-viva.com/api/v2/flights.json?from=DAR&to=2&departureDat
                     }
                 }
             ],
-            "number": "5031/5032/5032",
             "dates": {
                 "departure": "2019-01-28 12:00",
                 "arrival": "2019-01-28 14:45"
