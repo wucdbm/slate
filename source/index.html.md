@@ -396,6 +396,10 @@ This also applies to <a href='#redirect'>Redirect</a>
 Departure / arrival dates are local.
 </aside>
 
+<aside class="notice">
+Prices are floats, but are exposed as strings in the JSON to preserve precision to the second decimal.
+</aside>
+
 <aside class="warning">
 If a one-way search is performed, and <code>returnDate</code> is not provided, the <code>return</code> key in the JSON response will be omitted.
 </aside>
