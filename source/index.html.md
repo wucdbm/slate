@@ -400,6 +400,11 @@ Departure / arrival dates are local.
 Prices are floats, but are exposed as strings in the JSON to preserve precision to the second decimal.
 </aside>
 
+<aside class="notice">
+Flight number under each flight is a slash (/) separated value of all leg flight numbers.
+Could be used as a display value, but should not be relied upon.
+</aside>
+
 <aside class="warning">
 If a one-way search is performed, and <code>returnDate</code> is not provided, the <code>return</code> key in the JSON response will be omitted.
 </aside>
