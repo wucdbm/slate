@@ -353,7 +353,7 @@ curl -X GET "https://air-viva.com/api/v2/flights.json?from=DAR&to=2&departureDat
         }
     ],
     "return": [
-      
+        // Return flights listed here if return date is provided, otherwise "return" will not be in the response
     ]
 }
 ```
