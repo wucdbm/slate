@@ -1,0 +1,4 @@
+<aside class="notice">
+Flight number under each flight is a slash (/) separated value of all leg flight numbers.
+Could be used as a display value, but should not be relied upon.
+</aside>

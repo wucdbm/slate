@@ -379,7 +379,7 @@ Search parameters should adhere to the following rules:
 
 * `from` airport is required.
 * `to` airport is required. Should not match `from` airport.
-* You'll get an error upon submission of a non-existent airport @ `from`, `to`. Feel free to pass any IATA code here if you don't want to go with IDs, but you should also handle the errors and disregard searches if air viva does not have these airports.
+* You'll get an error upon submission of a non-existent airport @ `from`, `to`. Feel free to pass any IATA code here if you don't want to sync airports and/or routes and go with IDs, but you should also handle the airport not found errors as something normal and assume no availability if air viva does not have these airports.
 * Search will always execute regardless of <a href='#routes-with-availability'>Routes with Availability</a> - you'll simply get an empty result.
 * `departureDate` is required and should be a valid date. Searches are not allowed for past dates.
 * `returnDate` if doing a return search should be a valid date and should not be before `departureDate`. It can be equal to `departureDate` though, as same-day return is often a valid use-case.
@@ -401,12 +401,7 @@ Prices are floats, but are exposed as strings in the JSON to preserve precision 
 </aside>
 
 <aside class="notice">
-Flight number under each flight is a slash (/) separated value of all leg flight numbers.
-Could be used as a display value, but should not be relied upon.
-</aside>
-
-<aside class="notice">
-Flight numbers under each leg are strings to prevent JSON serializers mangling flight numbers starting with zero.
+Flight numbers under each leg are strings to prevent JSON serializers mangling flight numbers starting with a zero.
 </aside>
 
 <aside class="warning">
