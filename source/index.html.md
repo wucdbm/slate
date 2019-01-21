@@ -405,6 +405,10 @@ Flight number under each flight is a slash (/) separated value of all leg flight
 Could be used as a display value, but should not be relied upon.
 </aside>
 
+<aside class="notice">
+Flight numbers under each leg are strings to prevent JSON serializers mangling flight numbers starting with zero.
+</aside>
+
 <aside class="warning">
 If a one-way search is performed, and <code>returnDate</code> is not provided, the <code>return</code> key in the JSON response will be omitted.
 </aside>
